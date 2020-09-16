@@ -2,7 +2,6 @@
   "name": "movie-nominations",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ronaldH-7.github.io/movie-nominations",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
@@ -11,6 +10,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.5.2",
+    "firebase-tools": "^8.10.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.3.0",
     "react-dom": "^16.13.1",
@@ -22,8 +22,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "firebaseLogin": "firebase login",
+    "firebaseInit": "firebase init",
+    "firebaseDeploy": "firebase deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -40,7 +41,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
-  }
+  "devDependencies": {}
 }
